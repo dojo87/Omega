@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega", "Omega\Omega.csproj", "{3358997C-1188-439F-9246-599B544AC4D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega.Tests", "Omega.Tests\Omega.Tests.csproj", "{3A5A3AF3-56A2-4CAF-940F-9B62BCF631C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{05A7BCEC-497F-4D8D-B7FF-9F7795733FBD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{82395AA5-DDFB-420C-8100-3F564225A6B5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\Omega-VM-dev.json = PublishScripts\Configurations\Omega-VM-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3358997C-1188-439F-9246-599B544AC4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3358997C-1188-439F-9246-599B544AC4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3358997C-1188-439F-9246-599B544AC4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3358997C-1188-439F-9246-599B544AC4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5A3AF3-56A2-4CAF-940F-9B62BCF631C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5A3AF3-56A2-4CAF-940F-9B62BCF631C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5A3AF3-56A2-4CAF-940F-9B62BCF631C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5A3AF3-56A2-4CAF-940F-9B62BCF631C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82395AA5-DDFB-420C-8100-3F564225A6B5} = {05A7BCEC-497F-4D8D-B7FF-9F7795733FBD}
+	EndGlobalSection
+EndGlobal
