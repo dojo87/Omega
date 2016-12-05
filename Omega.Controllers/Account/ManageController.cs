@@ -7,8 +7,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Omega.Models;
+using Omega.Models.Identity.Manage;
 
-namespace Omega.Controllers
+namespace Omega.Controllers.Account
 {
     [Authorize]
     public class ManageController : Controller

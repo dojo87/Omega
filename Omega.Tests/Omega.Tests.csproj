@@ -11,9 +11,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Omega.Tests</RootNamespace>
     <AssemblyName>Omega.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -92,6 +93,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Omega.Controllers\Omega.Controllers.csproj">
+      <Project>{C86F1628-CC0B-447C-9B23-87584C33B5F6}</Project>
+      <Name>Omega.Controllers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Omega\Omega.csproj">
       <Project>{3358997C-1188-439F-9246-599B544AC4D6}</Project>
       <Name>Omega</Name>

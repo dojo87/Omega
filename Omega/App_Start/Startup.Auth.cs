@@ -6,6 +6,9 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using Omega.Models;
+using Omega.Models.Identity;
+using Omega.Models.Common;
+using Omega.Controllers.Account;
 
 namespace Omega
 {

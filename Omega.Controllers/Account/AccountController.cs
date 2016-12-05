@@ -9,8 +9,10 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Omega.Models;
+using Omega.Models.Identity;
+using Omega.Model.Identity;
 
-namespace Omega.Controllers
+namespace Omega.Controllers.Account
 {
     [Authorize]
     public class AccountController : Controller
